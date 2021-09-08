@@ -1,0 +1,50 @@
+body {
+    background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat;
+    background-size: 60rem auto;
+    background-position: left -5rem top -28rem, right -3rem bottom -32rem;
+    background-color: hsl(185, 75%, 39%);
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif; 
+}
+
+main .container {
+    max-width: 350px;
+    min-width: 270px;
+    border-radius: 20px;
+    margin: 20vh auto;
+}
+
+main .container .imageTop {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.container .profileImage {
+    margin-top: -55px !important;
+}
+
+.stats span {
+    letter-spacing: .1rem;
+    font-size: x-small !important;
+}
+
+@media (max-width: 1460px) {
+    body {
+        background-size: 50rem auto;
+    }
+}
+@media (max-width: 1000px) {
+    body {
+        background-size: 45rem auto;
+    }
+}
+@media (max-width: 700px) {
+    body {
+        background-size: 30rem auto;
+        background-position: left -10rem top -15rem, right -12rem bottom -10rem;
+    }
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 65%, 50%); }
